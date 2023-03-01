@@ -8,7 +8,7 @@ class Person{
             // energy = energy + 10;
         //  }
     }
-    sleep(energy) {
+    sleep=function() {
        return energy = energy + 10;
     }
     doSomethingFun(energy) {
@@ -31,8 +31,8 @@ class Worker extends Person{
         super.doSomethingFun();
     }
 
-    goToWork(){
-        xp+=10;
+    goToWork=function(xp){
+        xp=xp+10;
     }
 }
 
@@ -54,7 +54,8 @@ function intern() {
     intern.xp=0;
     intern.hourlyWage=10;
     console.log(intern)
-    // console.log(intern);
+    intern.goToWork();
+    console.log(intern.xp);
 }
 
 intern();
