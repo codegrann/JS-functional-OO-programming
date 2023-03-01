@@ -8,10 +8,10 @@ class Person{
             // energy = energy + 10;
         //  }
     }
-    sleep=function() {
-       return energy = energy + 10;
+    sleep=function(energy) {
+       console.log(energy+10);
     }
-    doSomethingFun(energy) {
+    doSomethingFun=function(energy) {
         return energy - 10;
     }
 }
@@ -63,5 +63,13 @@ intern();
 
 // Task 4: Code a manager object, methods
 function manager() {
-    
+    let manager=new Worker();
+    manager.name="Alice";
+    manager.age=30;
+    manager.energy=120;
+    manager.xp=100;
+    manager.hourlyWage=30;
+    console.log(manager.energy);
+    console.log(manager);
 }
+manager();
