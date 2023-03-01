@@ -4,10 +4,13 @@ class Person{
         this.name = name;
         this.age = age;
         this.energy = energy;
+        this.sleep = function sleep(energy){
+            energy = energy + 10;
+         }
     }
-    sleep(energy) {
-        energy = energy-10;
-    }
+    // sleep(energy) {
+    //    return energy = energy + 10;
+    // }
     doSomethingFun() {
         return energy - 10;
     }
@@ -16,21 +19,25 @@ class Person{
 // Task 2: Code a Worker class
 class Worker extends Person{
     constructor(name, age, energy, xp = 0, hourlyWage = 10) {
-        super(name, age, energy);
+        super();
         this.xp = xp;
         this.hourlyWage = hourlyWage;
     }
     sleep() {
-        super.sleep();
+        // super.sleep();
+        energy = energy-10;
     }
     doSomethingFun() {
         super.doSomethingFun();
     }
 }
-let cow = new Worker();
+let cow = new Person();
 cow.sleep();
 console.log(cow.energy);
-// console.log(Worker.hourlyWage);
+// console.log(cow.hourlyWage);
+
+
+
 
 // Task 3: Code an intern object, run methods
 function intern() {
