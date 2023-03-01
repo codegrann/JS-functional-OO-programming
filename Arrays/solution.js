@@ -16,18 +16,24 @@ canJump: true
 const bird = Object.create(animal);
 bird.canFly = true;
 bird.hasFeathers = true;
+
+
 function birdCan() {
-    let bigbird = [];
-    for (let i = 0; i < bird.length; i++){
-        console.log(Object.keys[i](bird))
+    let bird1=Object.keys(bird);
+    for (let i of bird1){
+        console.log(i +":"+ bird[i])
     }
-
-
-    for (let props of bird) {
-        console.log(props.key +":"+ props.value)
-    }
+   
 }
-birdCan();
+// birdCan();
+
+
 
 // Task 3
-
+function animalCan(){
+    for(i in bird){
+        // console.log(bird);
+        console.log(i +":"+ bird[i]);
+    }
+}
+animalCan();
