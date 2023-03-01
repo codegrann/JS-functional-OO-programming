@@ -4,14 +4,14 @@ class Person{
         this.name = name;
         this.age = age;
         this.energy = energy;
-        this.sleep = function sleep(energy){
-            energy = energy + 10;
-         }
+        // this.sleep = function sleep(energy){
+            // energy = energy + 10;
+        //  }
     }
-    // sleep(energy) {
-    //    return energy = energy + 10;
-    // }
-    doSomethingFun() {
+    sleep(energy) {
+       return energy = energy + 10;
+    }
+    doSomethingFun(energy) {
         return energy - 10;
     }
 }
@@ -24,25 +24,41 @@ class Worker extends Person{
         this.hourlyWage = hourlyWage;
     }
     sleep() {
-        // super.sleep();
-        energy = energy-10;
+        super.sleep();
+        // energy = energy-10;
     }
     doSomethingFun() {
         super.doSomethingFun();
     }
+
+    goToWork(){
+        xp+=10;
+    }
 }
-let cow = new Person();
-cow.sleep();
-console.log(cow.energy);
+
+// let cow = new Person();
+// cow.doSomethingFun();
+// console.log(cow.energy);
 // console.log(cow.hourlyWage);
+
 
 
 
 
 // Task 3: Code an intern object, run methods
 function intern() {
-
+    let intern=new Worker();
+    intern.name="Bob";
+    intern.age=21;
+    intern.energy=110;
+    intern.xp=0;
+    intern.hourlyWage=10;
+    console.log(intern)
+    // console.log(intern);
 }
+
+intern();
+
 
 // Task 4: Code a manager object, methods
 function manager() {
