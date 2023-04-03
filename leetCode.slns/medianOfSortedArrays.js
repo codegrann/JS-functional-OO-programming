@@ -33,3 +33,15 @@ function findMedianSortedArrays(nums1, nums2) {
 var arr1=[1,3];
 var arr2=[2];
 findMedianSortedArrays(arr1, arr2);
+
+  let a = 1;
+  function four() {
+    if (true) {
+      let a = 4;
+  
+    console.log(a); // prints '4'
+  }
+  console.log(a);
+}
+four();
+console.log(a);
