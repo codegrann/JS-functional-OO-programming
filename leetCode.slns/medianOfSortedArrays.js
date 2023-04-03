@@ -34,15 +34,4 @@ var arr1=[1,3];
 var arr2=[2];
 findMedianSortedArrays(arr1, arr2);
 
-//   let a = 1;
-  function four() {
-    let a=2;
-    if (true) {
-  //     let a = 3;
-  
-    console.log(a); // prints '4'
-  }
-  console.log(a);
-}
-four();
-// console.log(a);
+console.log(Number.MAX_SAFE_INTEGER -1=== Number.MAX_SAFE_INTEGER +2)
