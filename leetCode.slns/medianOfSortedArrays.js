@@ -38,4 +38,4 @@ findMedianSortedArrays(arr1, arr2);
 
 
 
-  'Red Dragon'.endsWith('Red');
+  console.log('Red Dragon'.endsWith('dragon'));
