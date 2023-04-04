@@ -20,3 +20,13 @@ reg.test("a");
 var reg = /^[0-9]*.[0-9]*[1-9]+$/;
 reg.test("12"); 
 console.log(reg.test("12.2"));
+
+
+// Only Alphanumeric Characters
+//    /[a-zA-Z0-9]​/
+var reg = /[a-zA-Z0-9]/;
+reg.test("somethingELSE");
+reg.test("hello");
+reg.test("112a");
+reg.test("112");
+reg.test("^");
