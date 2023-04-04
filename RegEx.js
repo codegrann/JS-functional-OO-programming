@@ -13,3 +13,10 @@ var reg = /^\d+$/;
 reg.test("123"); 
 console.log(reg.test("123a"))
 reg.test("a"); 
+
+
+// Floating Numeric Characters
+//    /^[0-9]*.[0-9]*[1-9]+$/
+var reg = /^[0-9]*.[0-9]*[1-9]+$/;
+reg.test("12"); 
+console.log(reg.test("12.2"));
