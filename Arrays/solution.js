@@ -9,7 +9,7 @@ function logDairy() {
 // Task 2
 const animal = {
 
-canJump: true
+    canJump: true
 
 };
 
