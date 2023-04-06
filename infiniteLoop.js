@@ -9,7 +9,3 @@ while(true){
 }
 
 
-
-let arr1=[1,2,3];
-['2','1','3']=arr1;
-console.log(arr1);
