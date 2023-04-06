@@ -33,9 +33,3 @@ function findMedianSortedArrays(nums1, nums2) {
 var arr1=[1,3];
 var arr2=[2];
 findMedianSortedArrays(arr1, arr2);
-
-
-
-
-
-  console.log('Red Dragon'.endsWith('dragon'));
