@@ -1,6 +1,7 @@
 function findMedianSortedArrays(nums1, nums2) {
     if (nums1.length > nums2.length) {
-      [nums1, nums2] = [nums2, nums1]; // swap arrays so that nums1 is always the shorter one
+    
+      [nums1, nums2] = [nums2, nums1]; 
     }
     
     const m = nums1.length;
