@@ -12,8 +12,9 @@
 let hello="Hello";
 console.log(hello);
 // console.log(message)
-let message=hello;
+// let message=hello;
 hello="World";
+let message=hello;
 console.log(message)
 
 // hello="World";
