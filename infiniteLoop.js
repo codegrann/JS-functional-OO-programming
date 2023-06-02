@@ -1,11 +1,13 @@
 // IMPLEMENTING INFINITE LOOPS
 
-for(let i=0; 2==2; i++){
+// for(let i=0; 2==2; i++){
     // console.log("infinite loop");
-}
+// }
 
-while(true){
+// while(true){
     // console.log('Infinite Loop');
-}
+// }
+
+
 
 
