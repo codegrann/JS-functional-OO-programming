@@ -41,7 +41,7 @@ let ok="Hello are you ok, hope you are OK";
 console.log(ok.replace(/re/g, "ra"))
 
 
-console.log('+254-796-984-554'.match(/\d/g).join(''))
+console.log([...'+254-796-984-554'.replace(/\D/g, ',')])
 
 let str = 'O2 is oxygen';
 let re = /\d is/g
