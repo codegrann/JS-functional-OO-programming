@@ -47,3 +47,7 @@ let str = 'O2 is oxygen';
 let re = /\d is/g
 
 console.log(str.match(re));
+
+
+let rd = /E.\s6/g
+console.log('ES\n6'.match(rd)); 
