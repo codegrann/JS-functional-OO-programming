@@ -39,3 +39,6 @@ console.log(y.test(sample));
 
 let ok="Hello are you ok, hope you are OK";
 console.log(ok.replace(/re/g, "ra"))
+
+
+console.log('+254-796-984-554'.match(/\d/g).join(''))
