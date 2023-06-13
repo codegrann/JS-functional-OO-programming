@@ -30,3 +30,5 @@ reg.test("hello");
 reg.test("112a");
 reg.test("112");
 reg.test("^");
+
+
