@@ -33,6 +33,9 @@ reg.test("^");
 
 
 
-let y = new RegExp('hi');
+let y = /hi/;
 let sample = 'hi John';
 console.log(y.test(sample));
+
+let ok="Hello are you ok, hope you are OK";
+console.log(ok.match(/ok/gi))
