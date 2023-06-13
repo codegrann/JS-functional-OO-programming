@@ -49,5 +49,5 @@ let re = /\d is/g
 console.log(str.match(re));
 
 
-let rd = /E.6/g
-console.log('E@6 E66'.match(rd)); 
+let rd = /Es.6/sgi
+console.log('ES\n6'.match(rd)); 
