@@ -51,6 +51,6 @@ console.log(str.match(re));
 
 let rd = /Es.6/sgi
 console.log('ES\n6'.match(rd)); 
- let xx=3;
- let yy=xx==3&& true;
- console.log(yy)
+
+
+console.log(0>1||2)
