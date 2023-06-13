@@ -32,3 +32,7 @@ reg.test("112");
 reg.test("^");
 
 
+
+let y = new RegExp('hi');
+let sample = 'hi John';
+console.log(y.test(sample));
