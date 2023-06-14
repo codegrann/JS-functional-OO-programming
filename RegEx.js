@@ -57,3 +57,4 @@ let sentence="It @\n was a very chilly morning when I woke up, just to prepare f
 console.log(/.$/.test(sentence))
 
 console.log(/^\D/.test(+254-796-984-554))
+console.log(/^\d\d\D\d\d$/.test("12:05"))
