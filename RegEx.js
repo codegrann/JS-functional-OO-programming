@@ -60,3 +60,9 @@ console.log(/^\D/.test(+254-796-984-554))
 console.log(/^\d\d\D\d\d$/.test("12:05"))
 
 console.log(/\w@\w/.test('omondihills02@gmail.com'))
+
+
+let stri = `1st line
+2nd line
+3rd line`;
+console.log(stri.match(/^\d/gm));
