@@ -58,3 +58,5 @@ console.log(/.$/.test(sentence))
 
 console.log(/^\D/.test(+254-796-984-554))
 console.log(/^\d\d\D\d\d$/.test("12:05"))
+
+console.log(/\w@\w/.test('omondihills02@gmail.com'))
