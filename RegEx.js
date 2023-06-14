@@ -88,3 +88,5 @@ let re1 = /[cbr]ats/g;
 let result1 = str1.match(re1);
 
 console.log(result1);
+
+console.log(/[0-9]/.test('0796984554'));
