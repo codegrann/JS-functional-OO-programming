@@ -56,3 +56,4 @@ console.log('ES\n6'.match(rd));
 let sentence="It @\n was a very chilly morning when I woke up, just to prepare for school. It happened the previous day that I missed 2 lectures so I had to be up early to cover up for the miss. A friend of mine informed me of some assignments given to them which were due that same day.";
 console.log(/.$/.test(sentence))
 
+console.log(/^\D/.test(+254-796-984-554))
