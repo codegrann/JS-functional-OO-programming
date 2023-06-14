@@ -89,4 +89,9 @@ let result1 = str1.match(re1);
 
 console.log(result1);
 
-console.log(/[0-9]/.test('0796984554'));
+console.log(/[01239]/.test('0796984554'));
+
+let str2 = '🍎🍅🍓';
+for(let i=0; i<str2.length; i++) {
+    console.log(str2.charCodeAt(i));
+}
