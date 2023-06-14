@@ -72,3 +72,5 @@ let stri = `1st line
 2nd line
 3rd line`;
 console.log(stri.match(/^\d/gm));
+
+console.log(/\bo/.test('omondihills02@gmail.com.'))
