@@ -80,3 +80,5 @@ let ree = /\b\d\d.\d\d\b/g;
 let result = st.match(ree);
 
 console.log(result);
+
+console.log(/\w{4,25}@\w{3,10}.\w{2,5}/.test('omondihills02@gmail.com.'))
