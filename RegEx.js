@@ -82,3 +82,9 @@ let result = st.match(ree);
 console.log(result);
 
 console.log(/\w{4,25}@\w{3,10}.\w{2,5}/.test('omondihills02@gmail.com.'))
+
+let str1 = 'How cats, rats, and bats became Halloween animals';
+let re1 = /[cbr]ats/g;
+let result1 = str1.match(re1);
+
+console.log(result1);
