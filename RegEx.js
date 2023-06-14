@@ -74,3 +74,9 @@ let stri = `1st line
 console.log(stri.match(/^\d/gm));
 
 console.log(/\bo/.test('omondihills02@gmail.com.'))
+
+let st = 'I start coding JS at 05:30 AM';
+let ree = /\b\d\d.\d\d\b/g;
+let result = st.match(ree);
+
+console.log(result);
