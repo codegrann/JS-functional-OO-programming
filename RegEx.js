@@ -95,3 +95,6 @@ let str2 = '🍎🍅🍓';
 for(let i=0; i<str2.length; i++) {
     console.log(str2.charCodeAt(i));
 }
+console.log("🍎")
+let apple='\uD83C\uDF0E'
+console.log(apple)
