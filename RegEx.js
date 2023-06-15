@@ -100,5 +100,5 @@ let apple='\uD83C\uDF0E'
 console.log(apple)
 
 const path = 'posts/10';
-const pattern = /(\w+)(\/)(\d+)/;
-console.log(path.match(pattern)[3]);
+const pattern = /(?<resource>\w+)(?<divider>\/)(?<id>\d+)/;
+console.log(path.match(pattern));
