@@ -128,5 +128,10 @@ console.log(email)
 
 
 let omo='omondihills02@gmail.com';
-let patt=/(\w+?)(\d)/;
-console.log(omo.replace(patt, '$2'))
+let patt=/(\d+)/;
+console.log(omo.replace(patt, 'XXX'))
+
+let JS='Javascript Javascript is fun';
+let jspattern=/(\w+)(\w)(\w+)/;
+console.log(JS.match(jspattern))
+console.log(JS.replace(jspattern, ''))
