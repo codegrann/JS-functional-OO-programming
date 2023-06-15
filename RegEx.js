@@ -122,4 +122,11 @@ console.log(match[0]);
 console.log('omondihills02@gmail.com'.match(/(?<=@)\w+/g))
 console.log('omondihills02@gmail.com'.match(/\d(?!@)/g))
 
-console.log('omondihills02@gmail.com'.replace(/o/g, 'XX'))
+let email='omondihills02@gmail.com';
+email=email.replace(/o/g, 'XX')
+console.log(email)
+
+
+let omo='omondihills02@gmail.com';
+let patt=/(\w+?)(\d)/;
+console.log(omo.replace(patt, '$2'))
