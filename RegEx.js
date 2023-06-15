@@ -98,3 +98,8 @@ for(let i=0; i<str2.length; i++) {
 console.log("🍎")
 let apple='\uD83C\uDF0E'
 console.log(apple)
+
+const path = 'posts/10';
+const pattern = /(\w+)(\/)(\d+)/;
+const match = path.match(pattern);
+console.log(match);
