@@ -135,3 +135,13 @@ let JS='Javascript Javascript is fun';
 let jspattern=/(\w+)(\w)(\w+)/;
 console.log(JS.match(jspattern))
 console.log(JS.replace(jspattern, ''))
+
+
+
+let cc='camelCase';
+let pato=/[A-Z]/;
+console.log(cc.match(pato))
+console.log(cc.replace(pato, replacer))
+function replacer(match, offset){
+    return '-'+ match.toLowerCase();
+}
