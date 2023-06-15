@@ -105,5 +105,16 @@ console.log(path.match(pattern).groups);
 
 
 const back="come home now";
-let pat=/\w+\s+\1/;
+let pat=/(\w+)\s+\1/;
+// console.log(pat)
 console.log(back.match(pat))
+
+const s = 'JavaScript JavaScript is cool';
+const patter = /(\w+)\s+\1/;
+const resul = s.replace(patter, '$1');
+console.log(resul);
+
+const message = `"JavaScript's cool". They said`;
+const patterns = /([\'"]).*?\1/;
+const match = message.match(patterns);
+console.log(match[0]);
