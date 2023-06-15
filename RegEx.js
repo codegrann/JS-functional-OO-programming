@@ -101,4 +101,4 @@ console.log(apple)
 
 const path = 'posts/10';
 const pattern = /(?<resource>\w+)(?<divider>\/)(?<id>\d+)/;
-console.log(path.match(pattern));
+console.log(path.match(pattern).groups.id);
