@@ -101,4 +101,9 @@ console.log(apple)
 
 const path = 'posts/10';
 const pattern = /(?<resource>\w+)(?<divider>\/)(?<id>\d+)/;
-console.log(path.match(pattern).groups.id);
+console.log(path.match(pattern).groups);
+
+
+const back="come home now";
+let pat=/\w+\s+\1/;
+console.log(back.match(pat))
