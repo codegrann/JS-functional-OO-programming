@@ -120,3 +120,4 @@ const match = message.match(patterns);
 console.log(match[0]);
 
 console.log('omondihills02@gmail.com'.match(/(?<=@)\w+/g))
+console.log('omondihills02@gmail.com'.match(/\d(?!@)/g))
