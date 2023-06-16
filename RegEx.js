@@ -146,3 +146,11 @@ function replacer(match, offset){
     return '-'+ match.toLowerCase();
 }
 
+
+for (let i = 1; i < 20; i+=2) {
+
+    // if (i % 2) {
+      console.log( i );
+    // }
+  
+  }
