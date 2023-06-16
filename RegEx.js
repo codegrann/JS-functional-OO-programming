@@ -117,6 +117,7 @@ console.log(resul);
 const message = `"JavaScript's cool". They said`;
 const patterns = /([\'"]).*?\1/;
 const match = message.match(patterns);
+console.log(patte)
 console.log(match[0]);
 
 console.log('omondihills02@gmail.com'.match(/(?<=@)\w+/g))
