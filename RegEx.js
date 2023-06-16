@@ -117,7 +117,6 @@ console.log(resul);
 const message = `"JavaScript's cool". They said`;
 const patterns = /([\'"]).*?\1/;
 const match = message.match(patterns);
-console.log(patte)
 console.log(match[0]);
 
 console.log('omondihills02@gmail.com'.match(/(?<=@)\w+/g))
@@ -145,4 +144,11 @@ console.log(cc.match(pato))
 console.log(cc.replace(pato, replacer))
 function replacer(match, offset){
     return '-'+ match.toLowerCase();
+}
+
+let i=0;
+while(i<3){
+    
+    console.log(i);
+    i++;
 }
