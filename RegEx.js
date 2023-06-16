@@ -146,10 +146,3 @@ function replacer(match, offset){
     return '-'+ match.toLowerCase();
 }
 
-let i = 0;
-
-for (i = 0; i < 3; i++) { // use an existing variable
-  console.log(i); // 0, 1, 2
-}
-
-console.log(i); 
