@@ -1,7 +1,7 @@
 // Search for any Numeric Characters
 //    /\d+/
 var reg = /\d+/;
-console.log(reg.test("123"));
+console.log(reg.test("4asdsd"));
 reg.test("33asd"); 
 reg.test("5asdasd");
 reg.test("asdasd");
@@ -32,6 +32,9 @@ reg.test("112");
 reg.test("^");
 
 
+
+
+// DISTINCTION
 
 let y = /hi/;
 let sample = 'hi John';
