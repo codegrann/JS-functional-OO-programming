@@ -5,5 +5,3 @@ function isValid(s) {
 }
 
 isValid("()");
-
-console.log('h'==1)
