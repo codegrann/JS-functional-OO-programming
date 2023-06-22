@@ -7,7 +7,11 @@ function isValid(s) {
 isValid("()");
 
 function checkAge() {
-    let age=20;
+    let age=10;
+
+    // Using ?
+    let isAllowed=age>18? true: confirm('Did parents allow you');
+    console.log(isAllowed);
     if (age > 18) {
       console.log(true);
     } else {
