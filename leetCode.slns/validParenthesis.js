@@ -7,5 +7,3 @@ function isValid(s) {
 isValid("()");
 
 
-fc);
-  sayHi();
