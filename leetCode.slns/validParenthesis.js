@@ -14,7 +14,7 @@ function checkAge() {
     console.log(isAllowed);
 
     // Using ||
-    let allowed=age>18 || confirm('Did parents allow you');
+    let allowed=age>18 || 'Did parents allow you';
     console.log(allowed)
 
     // Using  if
