@@ -5,3 +5,4 @@ function isValid(s) {
 }
 
 isValid("()");
+
