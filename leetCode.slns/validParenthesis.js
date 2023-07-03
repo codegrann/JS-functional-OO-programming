@@ -14,13 +14,13 @@ let user={
 }
 let user2=user;
 
-console.log(user);
-console.log(user.sayHi())
-console.log(user2);
-console.log(user2.sayHi())
+// console.log(user);
+// console.log(user.sayHi())
+// console.log(user2);
+// console.log(user2.sayHi())
 
 user=null;
-user2=user
+// user2=user;
 console.log(user);
 console.log(user2);
 
