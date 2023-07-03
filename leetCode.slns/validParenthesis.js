@@ -9,7 +9,7 @@ isValid("()");
 let user={
   name: 'jango',
   sayHi(){
-    return this.name
+    return user.name;
   }
 }
 let user2=user;
@@ -22,7 +22,7 @@ let user2=user;
 user=null;
 // user2=user;
 console.log(user);
-console.log(user2);
+console.log(user2.sayHi);
 
 // console.log(user.sayHi())
 console.log(user2.sayHi())
