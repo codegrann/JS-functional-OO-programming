@@ -6,3 +6,4 @@ function isValid(s) {
 
 isValid("()");
 
+console.log(+"0"==[]);
