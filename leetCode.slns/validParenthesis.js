@@ -33,4 +33,6 @@ console.log(typeof NaN)
 console.log(NaN===NaN)
 console.log(null===null)
 console.log(undefined===undefined)
-console.log(isFinite(0))
+console.log(isFinite())
+
+console.log(Object.is(0.1 + 0.2, 0.3))
