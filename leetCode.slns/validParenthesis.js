@@ -15,4 +15,8 @@ let obj={
 }
 console.log(obj['name'])
 console.log(obj)
-let x=obj.toString();
+
+let num=123456789;
+console.log(num.toString(36))
+let num2=num.toString(36)
+console.log((num2))
