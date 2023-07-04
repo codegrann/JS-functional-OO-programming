@@ -18,5 +18,5 @@ console.log(obj)
 
 let num=123456789;
 console.log(num.toString(36))
+console.log(123456789..toString(36))
 let num2=num.toString(36)
-console.log((num2))
