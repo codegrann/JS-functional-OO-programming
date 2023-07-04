@@ -16,7 +16,9 @@ let obj={
 console.log(obj['name'])
 console.log(obj)
 
-let num=123456789;
+let num=123.456789;
 console.log(num.toString(36))
 console.log(123456789..toString(36))
 let num2=num.toString(36)
+
+console.log(+num.toFixed(2))
