@@ -7,3 +7,10 @@ function isValid(s) {
 isValid("()");
 
 console.log("0"==[]);
+
+
+let name='reno';
+let obj={
+  name,
+}
+console.log(obj['name'])
