@@ -22,3 +22,5 @@ console.log(123456789..toString(36))
 let num2=num.toString(36)
 
 console.log(+num.toFixed(2))
+
+console.log((0.2+0.1).toFixed(1))
