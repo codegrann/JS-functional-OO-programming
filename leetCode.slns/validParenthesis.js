@@ -36,3 +36,6 @@ console.log(undefined===undefined)
 console.log(isFinite())
 
 console.log(Object.is(0.1 + 0.2, 0.3))
+console.log(parseInt('200'))
+
+console.log('hillary'.match(/\W/g))
