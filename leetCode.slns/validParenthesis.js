@@ -18,6 +18,7 @@ console.log(obj)
 
 let num=123.456789;
 console.log(num.toString(36))
+// console.log('3f.gfzy42h8x'.parseInt)
 console.log(123456789..toString(36))
 let num2=num.toString(36)
 
@@ -39,3 +40,10 @@ console.log(Object.is(0.1 + 0.2, 0.3))
 console.log(parseInt('200'))
 
 console.log('hillary'.match(/i(?<=\w+)/g))
+
+let objj={
+  1:1,
+  2:2,
+  3:3,
+}
+console.log(JSON.stringify(objj));
