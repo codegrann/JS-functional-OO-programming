@@ -10,6 +10,6 @@ for (let value in MyObj) {
 }
 console.log(result);
 let arr=[1,2,3];
-let array=arr.splice(2, 0, 4);
+let array=arr.splice(3, 0, 4);
 console.log(arr);
 console.log(array);
