@@ -9,3 +9,7 @@ for (let value in MyObj) {
  };
 }
 console.log(result);
+let arr=[1,2,3];
+let array=arr.reverse();
+console.log(arr);
+console.log(array);
