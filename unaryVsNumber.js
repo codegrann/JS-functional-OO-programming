@@ -29,7 +29,7 @@ console.log(
 console.log(+[]);
 
 // BigInt values throw TypeError
-console.log(+10n);
+// console.log(+10n);
 
 // NUMBER() METHOD EXAMPLES
 console.log(Number(null));
@@ -40,6 +40,7 @@ console.log(Number("123"));
 console.log(Number(""));
 console.log(Number(" "));
 
+// bigint values are coercible using Number() method
 console.log(Number(10n));
 
 const num1 = +23;
