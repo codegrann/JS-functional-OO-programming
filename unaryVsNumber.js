@@ -15,3 +15,16 @@ console.log(+"123");
 
 console.log(+"");
 console.log(+" ");
+console.log(+" 32 ");
+console.log(
+  +`
+    45
+`
+);
+
+console.log(
+  +function () {
+    return 4;
+  }
+);
+console.log(+[]);
