@@ -29,7 +29,7 @@ console.log(
 console.log(+[]);
 
 // BigInt values throw TypeError
-// console.log(+10n)
+console.log(+10n);
 
 // NUMBER() METHOD EXAMPLES
 console.log(Number(null));
